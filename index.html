@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz App</title>
+        <link rel="icon" href="assets/logo.png">
+        <link rel="stylesheet" href="./src/style.css">
+    </head>
+    <body id="main-body">
+    
+        <div class="fixed-ui hide" id="top-settings">
+            <div id="button-div"><button id="go-back"><ion-icon name="close-outline"></ion-icon></button></div>
+            <div id="progress-div"><div id="progress-bar"><div id="progress-bar-progress"></div></div></div>
+        </div>
+
+        <div id="quiz-container">
+            <!-- <div class="answer-specific wrong">
+                    <p class="question-content"></p>
+
+                </div> -->
+        </div>
+        <div class="fixed-ui" id="bottom-settings">
+                <div id="time"><div><ion-icon name="stopwatch"></ion-icon></div><span id="time-viewer">10:00</span><span id="time-passed"></span></div>
+                <button id="start-button" class="pri-button next">Start</button>
+        </div>
+    
+    <script type="module" src="./src/main.ts"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
